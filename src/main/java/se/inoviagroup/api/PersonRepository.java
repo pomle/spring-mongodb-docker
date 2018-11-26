@@ -1,4 +1,4 @@
-package inovia;
+package se.inoviagroup.api;
 
 import java.util.List;
 
