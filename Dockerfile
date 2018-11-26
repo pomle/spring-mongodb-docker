@@ -6,6 +6,6 @@ WORKDIR /app
 COPY pom.xml .
 COPY src ./src
 
-RUN mvn clean package
+RUN mvn package
 
 ENTRYPOINT ["java", "-jar", "target/rest-api-0.1.0.jar"]
